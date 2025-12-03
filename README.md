@@ -72,7 +72,7 @@ I learnt how to add downloaded fonts to design and how to reduce font size for s
 
 ## Author
 
-- Website - [Nick](https://github.com/firefly198)
+
 - Frontend Mentor - [firefly198](https://www.frontendmentor.io/profile/firefly198)
 
 
