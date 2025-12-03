@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #F4D04E;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.container {
+    background-color: #FFF;
+    padding: 24px;
+    width: 384px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 8px 8px #000000;
+    
+}
+
+.illustration {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h1, p {
+    margin: 0
+}
+
+.text {
+   display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile {
+    height: 32px;
+    width: 32px;
+}
+
+h1 {
+    font-size: clamp(20px, 1.6vw, 24px);
+    font-weight: 800;
+}
+
+p {
+    font-size: clamp(12px, 0.97vw, 14px);
+    line-height: 150%;
+    color: #111;
+    font-weight: 500;
+}
+
+.long {
+    font-size: clamp(14px, 1.1vw, 16px);
+    color: #6B6B6B;
+}
+
+.name {
+    font-size : 14px;
+}
+.background {
+    padding: 4px 12px;
+    background-color: #F4D04E;
+    height: auto;
+    width: fit-content;;
+    border-radius: 4px;
+
+}
+
+.learning, .name {
+    font-weight: 800;
+}
+
+
+h1:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
